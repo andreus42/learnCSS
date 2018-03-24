@@ -45,9 +45,7 @@ a img {
   border: none;
 }
 /* END RESET*/
-/*----------*/
 
-/*****************/
 /* GLOBAL STYLES */
 html {
   box-shadow: 0 0 0 30px #000 inset;
@@ -69,16 +67,6 @@ h2 ~ p {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
-}
-
-/* HERO STYLES */
-.full-hero {
-  background-color: #c7dbfc;
-  height: 50vh;
-}
-
-.full-hero:hover {
-  /*background-color: #d22;*/
 }
 
 /* HEADER STYLES */
@@ -129,7 +117,7 @@ h2 ~ p {
   text-transform: uppercase;
 }
 .nav-links a:hover,
-.nav-links a:active {
+.nav-links a:active  {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a {
@@ -164,7 +152,24 @@ h2 ~ p {
   color: #ccc;
 }
 
+.full-hero {
+  background-color: #c7dbfc;
+  background-size: cover;
+  /*box-sizing: border-box;*/
+  height: 100vh;
+  padding-top: 10vh;
+}
+.hero-home {
+  background-image: url(/images/shark.jpg);
+  background-position: center top;
+}
+
 /* SOCIAL STYLES */
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
 .social-link {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
@@ -182,15 +187,6 @@ h2 ~ p {
   vertical-align: middle;
   width: 2.5em;
 }
-.social-link:hover,
-.social-link:active {
-  color: #ed6e2f;
-}
-.social-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
@@ -205,13 +201,11 @@ h2 ~ p {
 }
 .bio-box {
   border: 1px solid black;
-  /*border: outset;*/
-  border-color: rgba(0,0,0,0) rgba(0,0,0,1) rgba(0,0,0,1) rgba(0,0,0,0);
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
   margin: 40px 1% 0;
-  padding: 0 2% 2%;
+  padding: 2%;
   width: 23%;
 }
 .bio-box h3 {
@@ -229,7 +223,6 @@ h2 ~ p {
 }
 .bio-copy {
   font-size: 1em;
-  line-height: 1.5;
 }
 .bio-copy a {
   color: green;
