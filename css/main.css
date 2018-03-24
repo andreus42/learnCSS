@@ -152,10 +152,12 @@ h2 ~ p {
   color: #ccc;
 }
 
+/* HERO STYLES */
+
 .full-hero {
   background-color: #c7dbfc;
   background-size: cover;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
   height: 100vh;
   padding-top: 10vh;
 }
