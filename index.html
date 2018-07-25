@@ -1,138 +1,70 @@
 ---
 layout: default
 ---
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">A&T WED</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/about.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Map</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Things to do</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Lodging</a>
+  </li>
+  </ul>
+</nav>
+
 <div class="home">
   <div class="full-hero hero-home">
     <div class="hero-content">
-      <h1>CODE DANGEROUSLY</h1>
-      <ul class="social-list">
-        <li>
-          <a href="http://example.com/" class="social-link">Fb</a>
-        </li>
-        <li>
-          <a href="http://example.com/" class="social-link">Tw</a>
-        </li>
-        <li>
-          <a href="http://example.com/" class="social-link">Gh</a>
-        </li>
-      </ul>
+      <h1>Andrew & Tracy's Wedding</h1>
+      <h2>THIS & THAT ABOUT OUR WEDDING</h2>
+      Due some very unfortunately circumstances, Andrew crashed the website shortly before release. It will return shortly. We'll email updates.
     </div>
   </div>
   <div class="home-callout">
-    <h1 class="callout-title">The Learn Enough Story</h1>
+    <h1 class="callout-title">Their Love Story</h1>
     <div class="callout-copy">
       <p>
-        Learn Enough to Be Dangerous is a leader in the movement to teach the world
-        <em>technical sophistication</em>, which includes both "hard skills" like
-        coding, command lines, and version control, and "soft skills" like guessing
-        keyboard shortcuts, Googling error messages, and knowing when to just
-        reboot the darn thing.
+        This is will be our love stroy.
       </p>
       <p>
-        We believe there are <strong>at least a billion peoplsle</strong> who can
-        benefit from learning technical sophistication, probably more. To join our
-        movement, <a href="https://learnenough.com/#email_list">sign up for our
-        official email list</a> now.
       </p>
       <h3>Background</h3>
       <p>
-        Learn Enough to Be Dangerous is an outgrowth of the
-        <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and the
-        <a href="http://www.softcover.io/">Softcover publishing platform</a>. This
-        page is part of the sample site for <a
-        href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
-        to Be Dangerous</em></a>, which teaches the basicics of
-        <strong>C</strong>ascading <strong>S</strong>tyle
-        <strong>S</strong>heets, the language that
-        allows web pages to be styled. Other related tutorials can be found at
-        <a href="https://learnenough.com/">learnenough.com</a>.
       </p>
     </div>
   </div>
   <div class="home-section">
-    <h4>Most recent post</h4>
-    <div class="blog-posts">
-      <header class="post-header">
-        <h2>
-          <a href="{{ site.posts.first.url }}">
-          {{ site.posts.first.title }}</a>
-        </h2>
-        <div class="post-byline">
-          <img src="{{ site.posts.first.gravatar }}">
-          <a href="{{ site.posts.first.authorTwitter }}"
-          class="social-link">Tw</a>
-          by: {{ site.posts.first.author }}
-          <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
-        </div>
-      </header>
-      <div class="posts-image"
-      style="background-image:url({{ site.posts.first.postHero }})"></div>
-      {{ site.posts.first.excerpt }}
-    </div>
-  </div>
-  <div class="home-section">
-  <h2>THE FOUNDERS</h2>
+  <h2>THE SWEES</h2>
     <p>
-      Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee
-      Donahoe, and Nick Merwin. We believe that the kind of technical
-      sophistication taught by the Learn Enough tutorials can benefit at least a
-      billion people, and probably more.
+        Andrew and Tracy met Sept 22, 2013. They had a great date on a park bench.
     </p>
-    <div class="bio-wrapper">
-      <div class="bio-box">
-        <img src="http://placekitten.com/g/400/400">
-        <h3>Michael Hartl</h3>
-        <a href="http://twitter.com/mhartl" class="social-link">
-          Tw
-        </a>
-        <div class="bio-copy">
-          <p>
-            Known for his dazzling charm, rapier wit, and unrivaled humility,
-            Michael is the creator of the
-            <a href="http://railstutorial.org/">Ruby on Rails
-            Tutorial</a> and principal author of the
-            <a href="https://learnenough.com/">
-            Learn Enough to Be Dangerous</a> introductory sequence.
-          </p>
-          <p>
-            Michael is also notorious as the founder of
-            <a href="http://tauday.com/">Tau Day</a> and
-            author of <a href="http://tauday.com/tau-manifesto"><em>The Tau
-            Manifesto</em></a>, but rumors that he's secretly a supervillain are
-            slightly exaggerated.
-          </p>
+    <div class="flex-container">
+        <div class="bio-wrapper">
+            <div class="bio-box">
+            <img src="images/Tracy_AndySummer.jpg">
+            <h3>Andrew Metell</h3>
+                <div class="bio-copy">
+                  <p>
+                    Known for his love of disc golf, politics, and Tracy.
+                  </p>
+                  <p>
+                    Andrew lives in Keene, NH.
+                  </p>
+              </div>
         </div>
-      </div>
-      <div class="bio-box">
-        <img src="http://placekitten.com/g/400/400">
-        <h3>Lee Donahoe</h3>
-        <a href="https://twitter.com/leedonahoe" class="social-link">
-          Tw
-        </a>
-        <div class="bio-copy">
-          <p>
-            When he's not literally swimming with sharks or hunting powder stashes
-            on his snowboard, you can find Lee in front of his computer designing
-            interfaces, doing front-end development, or writing some of the
-            interface-related Learn Enough tutorials.
-          </p>
-        </div>
-      </div>
-      <div class="bio-box">
-        <img src="http://placekitten.com/g/400/400">
-        <h3>Nick Merwin</h3>
-        <a href="https://twitter.com/nickmerwin" class="social-link">
-          Tw
-        </a>
-        <div class="bio-copy">
-          <p>
-            You may have seen him shredding guitar live with Capital Cities on
-            Jimmy Kimmel, Conan, or The Ellen Show, but rest assured Nick is a true
-            nerd at heart. He's just as happy shredding well-spec'd lines of code
-            from a tour bus as he is from his kitchen table.
-          </p>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
